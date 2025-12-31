@@ -9,7 +9,7 @@ for /f "delims=" %%i in ('dir /s /b /ad bin obj .venv venv node_modules') do (
 )
 
 echo.
-set /p confirm=Type YES to delete all these folders: 
+set /p confirm=Type YES to delete all these folders:
 if not "%confirm%"=="YES" (
     echo Aborting.
     goto :eof
@@ -23,5 +23,6 @@ for /f "delims=" %%i in ('dir /s /b /ad bin obj .venv venv node_modules') do (
     )
 )
 
+echo.
 echo Done.
 pause
