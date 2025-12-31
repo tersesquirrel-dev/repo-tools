@@ -2,6 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo Scanning for uncommitted changes...
+echo.
 
 REM Enumerate folders
 for /f "delims=" %%i in ('dir /s /b /ad .git') do (

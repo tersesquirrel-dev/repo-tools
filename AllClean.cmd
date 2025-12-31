@@ -1,6 +1,7 @@
 @echo off
 
 echo Scanning for temporary dev folders...
+echo.
 
 REM Enumerate folders
 for /f "delims=" %%i in ('dir /s /b /ad bin obj .venv venv node_modules') do (

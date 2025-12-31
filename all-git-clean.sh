@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Scanning for temporary dev folders..."
+echo ""
 
 # Enumerate folders
 find . -type d \( -name "bin" -o -name "obj" -o -name ".venv" -o -name "venv" -o -name "node_modules" \) | while read -r dir; do

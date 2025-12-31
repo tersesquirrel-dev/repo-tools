@@ -1,6 +1,7 @@
 @echo off
 
 echo Scanning for git folders...
+echo.
 
 REM Enumerate folders
 for /f "delims=" %%i in ('dir /s /b /ad .git') do (

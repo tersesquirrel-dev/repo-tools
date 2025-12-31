@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Scanning for git folders..."
+echo ""
 
 # Enumerate folders containing .git
 find . -name ".git" -type d | while read gitdir; do
